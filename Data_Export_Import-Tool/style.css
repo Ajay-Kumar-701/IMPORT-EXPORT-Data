@@ -1,0 +1,35 @@
+/* Style.css */
+* { 
+	margin: 0; 
+	padding: 0; 
+} 
+.main { 
+	width: max-content; 
+	margin: auto; 
+} 
+.main h1 { 
+	color: rgb(34, 0, 128); 
+	text-align: center; 
+} 
+.main input { 
+	margin-top: 40px; 
+} 
+.main button { 
+	width: max-content; 
+	margin: auto; 
+	display: block; 
+	padding: 10px; 
+	padding-left: 15px; 
+	padding-right: 15px; 
+	background-color: rgb(128, 98, 0); 
+	border: none; 
+	border-radius: 6px; 
+	color: white; 
+} 
+.main button:hover { 
+	background-color: rgb(166, 177, 166); 
+	cursor: pointer; 
+} 
+.main button:active { 
+	transform: translate(0, 2px); 
+}
